@@ -8,11 +8,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mdi/font": "^7.2.96",
+    "axios": "^1.4.0",
     "pinia": "^2.0.35",
-    "vue": "^3.2.47"
+    "roboto-fontface": "^0.10.0",
+    "vue": "^3.2.47",
+    "vuetify": "^3.2.2",
+    "webloader": "^0.0.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.1",
-    "vite": "^4.3.4"
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
+    "vite": "^4.3.4",
+    "vite-plugin-vuetify": "^1.0.2"
   }
 }
