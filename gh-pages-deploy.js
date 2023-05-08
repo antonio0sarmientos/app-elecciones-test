@@ -1,5 +1,5 @@
-const execa = require("execa");
-const fs = require("fs");
+import { execa } from "execa";
+import { existsSync } from "fs";
 
 (async () => {
   try {
