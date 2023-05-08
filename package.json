@@ -1,11 +1,13 @@
 {
   "name": "app-elecciones",
-  "version": "0.0.0",
+  "version": "0.1.2",
   "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "build:ci": "vite build --base=/app-elecciones-test",
+    "preview": "vite preview",
+    "deploy": "node gh-pages-deploy.js"
   },
   "dependencies": {
     "@mdi/font": "^7.2.96",
@@ -18,6 +20,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.1",
+    "execa": "^7.1.1",
     "sass": "^1.62.1",
     "sass-loader": "^13.2.2",
     "vite": "^4.3.4",
