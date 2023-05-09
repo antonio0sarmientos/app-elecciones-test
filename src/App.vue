@@ -6,7 +6,6 @@
       <v-container fluid>
         <RegistroVotosForm />
         <DescargaVotosButton />
-        <h1>Hola Mundo</h1>
       </v-container>
     </v-main>
   </v-app>
